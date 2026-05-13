@@ -104,7 +104,7 @@ for i in range(num_segs):
 st.write("") # Espaçamento
 
 # --- PROCESSAMENTO E RESULTADOS ---
-if st.button("Calcular Performance de Subida", type="primary"):
+if st.button("Calcular", type="primary"):
     st.divider()
     
     resultados_ft = []
@@ -125,7 +125,7 @@ if st.button("Calcular Performance de Subida", type="primary"):
         total_ft = sum(resultados_ft)
         total_nm = ft_para_nm(total_ft)
         
-        st.markdown("### 📊 Resultado Consolidado")
+        st.markdown("### 📊 Resultado")
         
         # Exibição dos resultados em cards centralizados
         col_res1, col_res2, col_res3 = st.columns(3)
