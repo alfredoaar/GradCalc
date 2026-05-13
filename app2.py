@@ -60,7 +60,7 @@ def ft_para_nm(ft):
     return ft / NM_PARA_FT
 
 # --- CABEÇALHO ---
-st.markdown("<h1>✈️ Climb Calc Pro</h1>", unsafe_allow_html=True)
+st.markdown("<h1>✈️ Calculadora de Distância por PDG</h1>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Calculadora de Distância Percorrida por Aeronave em SID com múltiplos PDG(s)</div>", unsafe_allow_html=True)
 
 st.divider()
